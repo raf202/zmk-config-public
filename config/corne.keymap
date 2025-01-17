@@ -57,12 +57,12 @@
 
                 layer_3 {
 // -----------------------------------------------------------------------------------------
-// | pw1 | pw2 | pw3 | pw4 |     | SLEEP |   |     |           |  NEXTWIN  |          |    | CALCULATOR |
+// |     |     |     |     |     |       |   |           |  NEXTWIN  |          |    | CALCULATOR |
 // |     |     |     |     |     |       |   |     |  PREVTAB  |  PREVWIN  |  NEXTAB  |    |            |
 // |     |     |     |     |     |       |   |     |           |           |          |    |            |
 //                 | LCTRL |     | SPC   |   | ENT |           | ALT |
                         bindings = <
-   &pw1  &pw2  &pw3  &pw4  &trans &win_sleep      &trans &trans          &kp LA(LS(TAB)) &trans &trans &kp C_AL_CALC
+   &trans &trans &trans &trans &trans &trans      &trans &trans          &kp LA(LS(TAB)) &trans &trans &kp C_AL_CALC
    &trans &trans &trans &trans &trans &trans      &trans &kp LC(LS(TAB)) &kp LA(TAB)     &kp LC(TAB) &trans &trans
    &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans
                   &kp LCTRL &trans &kp SPACE      &kp RET &trans &kp RALT
